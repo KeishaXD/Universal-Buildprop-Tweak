@@ -11,8 +11,8 @@ Universal Buildprop Tweak is a module or script designed to optimize Android sys
 • For filtering : I use Chatgpt to do some filtering to get universal buildprops. 
 
 ##  Tested on :
-• Realme C21Y (For beta build)
-• Infinix Note 30 (For stable build), very smooth in 120hz mode.
+- Realme C21Y (For beta build)
+- Infinix Note 30 (For stable build), very smooth in 120hz mode.
 
 ## Download :
 To download this module, please go to the [Release page](https://github.com/KeishaXD/Universal-Buildprop-Tweak/releases/latest)
