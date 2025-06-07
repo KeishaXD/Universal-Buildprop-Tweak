@@ -1,0 +1,79 @@
+# ====== Dalvik / ART Tweaks ======
+dalvik.vm.dexopt-flags=m=y,v=n,o=v
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapsize=512m
+dalvik.vm.heaptargetutilization=0.75
+dalvik.vm.heapminfree=2m
+dalvik.vm.heapmaxfree=8m
+ro.sys.fw.dex2oat_thread_count=4
+persist.sys.dalvik.hyperthreading=true
+persist.sys.dalvik.multithread=true
+
+# ====== Touch & Responsiveness ======
+windowsmgr.max_events_per_sec=150
+ro.max.fling_velocity=12000
+ro.min.fling_velocity=8000
+view.scroll_friction=10
+persist.sys.scrollingcache=3
+ro.min_pointer_dur=8
+MultitouchSettleInterval=0.1ms
+TapInterval=0.1ms
+TapSlop=1px
+ro.product.multi_touch_enabled=true
+ro.product.max_num_touch=10
+touch.deviceType=touchScreen
+
+# ====== GPU / UI Rendering ======
+debug.sf.hw=1
+debug.egl.hw=1
+debug.egl.profiler=1
+debug.composition.type=gpu
+persist.sys.composition.type=gpu
+persist.sys.use_16bpp_alpha=1
+hwui.disable_vsync=true
+hwui.render_dirty_regions=false
+debug.qctwa.statusbar=1
+debug.qctwa.preservebuf=1
+persist.sys.ui.hw=1
+sys.use_fifo_ui=1
+debug.egl.force_msaa=1
+debug.overlayui.enable=1
+debug.enabletr=true
+
+# ====== Memory & Cache ======
+persist.sys.purgeable_assets=1
+
+# ====== Power Saving & Boot ======
+pm.sleep_mode=1
+power.saving.mode=1
+wifi.supplicant_scan_interval=180
+ro.ril.disable.power.collapse=0
+ro.config.hw_quickpoweron=true
+persist.sys.boot.fastboot=1
+
+# ====== Network ======
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.gprs=4096,87380,256960,4096,16384,256960
+
+# ====== Process Priority Tweaks ======
+ro.HOME_APP_ADJ=15
+ro.FOREGROUND_APP_ADJ=0
+ro.VISIBLE_APP_ADJ=4
+ro.HIDDEN_APP_MIN_ADJ=7
+
+# ====== Logging & Profiler ======
+profiler.force_disable_err_rpt=1
+profiler.force_disable_ulog=1
+profiler.debugmonitor=false
+profiler.launch=false
+profiler.hung.dumpdobugreport=false
+ro.kernel.android.checkjni=0
+ro.config.nocheckin=1
+log.tag.Sensors=ERROR
+
+# ====== Miscellaneous ======
+ro.oem_unlock_supported=1
+ro.config.notification_sound=OnTheHunt.ogg
+ro.config.alarm_alert=Alarm_Classic.ogg

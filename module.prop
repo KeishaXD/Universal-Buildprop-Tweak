@@ -1,0 +1,6 @@
+id=universalbuildproptweak
+name=Universal Build.prop Tweak
+version=1.0
+versionCode=1
+author=KeishaXD & ChatGPT
+description=A universal performance & touch optimization build.prop module.
