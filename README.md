@@ -7,8 +7,8 @@
 Universal Buildprop Tweak is a module or script designed to optimize Android system performance, battery life, and responsiveness by modifying the build.prop file. This tweak is universal, meaning it can be used on various Android devices regardless of brand or model
 
 ## Credits :
-• Buildprop : I took this buildprop from some people on telegram.
-• For filtering : I use Chatgpt to do some filtering to get universal buildprops. 
+- Buildprop : I took this buildprop from some people on telegram.
+- For filtering : I use Chatgpt to do some filtering to get universal buildprops. 
 
 ##  Tested on :
 - Realme C21Y (For beta build)
