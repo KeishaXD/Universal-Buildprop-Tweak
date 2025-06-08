@@ -31,7 +31,6 @@ debug.egl.profiler=1
 debug.composition.type=gpu
 persist.sys.composition.type=gpu
 persist.sys.use_16bpp_alpha=1
-hwui.disable_vsync=true
 hwui.render_dirty_regions=false
 debug.qctwa.statusbar=1
 debug.qctwa.preservebuf=1
